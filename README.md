@@ -1,4 +1,4 @@
-## Food_delivery_time_prediction
+## Delivery time prediction
 
 ### Business Case: Porter - Neural Networks Regression
 
