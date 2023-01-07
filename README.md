@@ -1,8 +1,8 @@
 ## Food_delivery_time_prediction
 
-### Porter: Neural Networks Regression**
+### Business Case: Porter - Neural Networks Regression
 
-***Problem Statement:***
+#### Problem Statement:
 
 Porter is India's Largest Marketplace for Intra-City Logistics. Leader in the country's $40 billion intra-city logistics market, Porter strives to improve the lives of 1,50,000+ driver-partners by providing them with consistent earning & independence. Currently, the company has serviced 5+ million customers
 
@@ -12,36 +12,7 @@ Porter has a number of delivery partners available for delivering the food, from
 
 This dataset has the required data to train a regression model that will do the delivery time estimation, based on all those features
 
-***What does ‘good’ look like?***
-
-1. Import the data and understand the structure of the data:
-   * usual exploratory analysis steps like checking the structure & characteristics of the dataset
-2. Data preprocessing
-   * Cleaning of data
-   * Feature engineering: Creating the target column time taken in each delivery from order timestamp (created_at) and delivery timestamp (actual_delivery_time)
-   * Getting hour of day from the order time and also the day of the week
-   * Understanding pandas datetime data type and what function it provides by default
-   * Get delivery time in minutes
-3. Handling null values
-4. Encoding categorical columns
-5. Data visualization and cleaning
-   * Visualize various columns for better understanding Countplots, scatterplots
-6. Check if the data contains outliers
-   * Removing outliers by any method
-   * Plotting the data again to see if anything has improved
-7. Split the data in train and test
-8. Creating a baseline model using random forest
-9. Checking its various metrics like MSE, RMSE, MAE
-10. Scaling the data for neural networks.
-11. Creating a simple neural network
-    * Trying different configurations
-    * Understanding different activation functions, optimizers and other hyperparameters.
-12. Training the neural network for required amount of epochs
-13. Plotting the losses and checking the accuracy of the model
-14. Comparing the results of neural network and random forest
-
-
-### EDA | ML model building
+#### Solution: EDA | ML, NN model building
 
 Porter is India's Largest Marketplace for Intra-City Logistics. Leader in the country's $40 billion intra-city logistics market, Porter strives to improve the lives of 1,50,000+ driver-partners by providing them with consistent earning & independence. Currently, the company has serviced 5+ million customers. Porter works with a wide range of restaurants for delivering their items directly to the people. 
 
